@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="https://img.icons8.com/?size=100&id=JRHBhyfXDoyZ&format=png&color=000000"
+      type="image/x-icon"
+    />
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Javascript Link -->
+    <script type="module" src="./script.js" defer></script>
+    <!-- Heading -->
+    <title>Simple To-Do List</title>
+  </head>
+  <body>
+    <main class="container">
+      <div class="alert-empty">
+        <h2>Text field cannot be blank!</h2>
+        <img src="./images/warning.png" alt="" />
+      </div>
+      <section class="todo-app">
+        <h2>To-Do List <img src="./images/checklist.png" alt="" /></h2>
+        <div class="row">
+          <input type="text" id="input-box" placeholder="Add your task..." />
+          <button id="add-task-button">Add</button>
+        </div>
+        <ul id="list-container">
+          <!-- <li class="checked">Task 1 </li>
+          <li>Task 2</li>
+          <li>Task 3</li> -->
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
